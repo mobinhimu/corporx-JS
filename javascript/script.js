@@ -146,9 +146,9 @@ const customerCallback = function (entries, observer) {
   const [entry] = entries;
 
   if (!entry.isIntersecting) return;
-
-  console.log(entry);
   entry.target.classList.remove("best-service__card--effect");
+
+  observer.unobserve(entry.target);
 };
 const customerObserver = new IntersectionObserver(customerCallback, {
   root: null,
