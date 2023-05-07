@@ -1,0 +1,324 @@
+/* This is for medium devices */
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+  section {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  /* This is header section start */
+
+  .nav {
+    padding: 15px 0px;
+  }
+  /* This is header section end */
+  /* This is main section start */
+  /* Slider Section */
+  .slider--wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* Section Header */
+  .section-header {
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .section-header--width {
+    width: 700px;
+  }
+  .section-header h1 {
+    font-size: 1.9rem;
+  }
+  /* Service Section */
+  .service--wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .single__service {
+    width: 47%;
+  }
+  .single__service:last-of-type {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* Customer Description */
+  .customer__desc {
+    font-size: 1.125rem;
+  }
+  /* Business Solution Section */
+  .business-solution__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .single__business {
+    width: 46%;
+  }
+  /* Quality Service */
+  .quality__wrapper {
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .quality__single {
+    width: 40%;
+  }
+  /* Best Service Section */
+  .best-service__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .best-service__card {
+    width: 47%;
+  }
+  /* News Section */
+  .news__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .news__card {
+    width: 47%;
+  }
+  .news__card:last-of-type {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* Our Team Section */
+  .team__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .team__card {
+    margin-top: 40px;
+    width: 47%;
+  }
+  .team__card:last-of-type {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* Client Review Section */
+  .review__info--display {
+    display: block;
+  }
+  /* Business Section */
+  .business__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* This is main section end */
+  /* This is footer section start */
+  /* footer section */
+  .footer__wrapper {
+    padding: 80px 0px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  .footer__card {
+    width: 45%;
+  }
+  /* This is footer section end */
+}
+/* This is for large Device */
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  section {
+    margin-top: 45px;
+  }
+  .slider {
+    padding: 120px 0px;
+  }
+  /* This is header section start */
+  .nav-bar__list {
+    position: static;
+    background-color: transparent;
+    backdrop-filter: blur(0);
+    opacity: 1;
+  }
+  .nav {
+    padding: 00px 0px;
+  }
+  #menu {
+    display: none;
+  }
+  /* This is header section start */
+  .nav-bar__list ul {
+    justify-content: end;
+    flex-flow: row wrap;
+    gap: 40px;
+  }
+  .nav-bar__list ul li {
+    display: block;
+  }
+  .nav-bar__list ul li a {
+    color: #5e6278;
+  }
+  .nav-bar__list ul li i {
+    font-size: 0.75rem;
+  }
+  /* This is header section end */
+  /* This is main section start */
+  /* Slider Section */
+  .slider--wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .slider__info h1 {
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+  }
+  .slider__info p {
+    font-size: 1.25rem;
+  }
+  .btn {
+    margin-top: 40px;
+  }
+
+  /* Service Section */
+  .service--wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .single__service {
+    width: 31%;
+  }
+  .single__service:last-of-type {
+    position: relative;
+    left: 0%;
+    transform: translateX(0%);
+  }
+  /* Customer Description */
+  .customer__desc {
+    font-size: 1.5rem;
+  }
+  /* Business Solution Section */
+  .business-solution {
+    padding: 120px 0px;
+  }
+  .single__business h1 {
+    font-size: 2rem;
+  }
+  .single__business p {
+    font-size: 1.125rem;
+  }
+  /* Quality Service */
+  .quality__single {
+    width: 28%;
+  }
+  /* Best Service Section */
+  .best-service__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+  }
+  .best-service__card {
+    width: 31%;
+  }
+  /* News Section */
+  .news {
+    padding: 120px 0px;
+    background-color: #f5f5f5;
+  }
+  .news__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .news__card {
+    width: 31%;
+  }
+  .news__card:last-of-type {
+    position: relative;
+    left: 0%;
+    transform: translateX(0%);
+  }
+  /* Our Team Section */
+  .team__card {
+    margin-top: 40px;
+    width: 31%;
+  }
+  .team__card:last-of-type {
+    position: relative;
+    left: 0%;
+    transform: translateX(0%);
+  }
+  /* Client Review Section */
+  .client-review__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  /* This is main section end */
+  /* This is footer section start */
+  /* footer section */
+  .footer__wrapper {
+    padding: 80px 0px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .footer__card {
+    width: 22%;
+  }
+  /* This is footer section end */
+}
+/* This is for x-large Devices */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  /* This is header section end */
+  /* This is main section start */
+  /* This is main section end */
+  /* This is footer section start */
+  /* This is footer section end */
+}
+/* This is for xx-large Devices */
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  /* This is header section start */
+  /* This is header section end */
+  /* This is main section start */
+  /* This is main section end */
+  /* This is footer section start */
+  /* This is footer section end */
+}
