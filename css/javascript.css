@@ -23,10 +23,10 @@
 }
 
 /* section hidden */
-/* .section__hidden {
+.section__hidden {
   transform: translateY(150px);
   opacity: 0;
-} */
+}
 
 /* slider dot active */
 .slider__dot-active {
